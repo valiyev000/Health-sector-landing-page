@@ -1,0 +1,240 @@
+@media only screen and (max-width: 576px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* border: 1px dotted red; */
+    user-select: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+header div .fa-bars, header div .fa-user{
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* logo'nu boyuduruk */
+header .header-elements:nth-child(2){
+    font-size: 25px;
+}
+
+/* inputu none edirik */
+header :nth-child(3), header :nth-child(4), header :nth-child(5), header :nth-child(6), header .header-elements:nth-child(7){
+    display: none;
+}
+
+header .header-elements:nth-child(8){
+    display: none;
+}
+
+main #launch-screen{
+    padding: 45px 10% 0 10%;
+}
+
+main #launch-screen #launch-screen-left{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2vh;
+}
+
+main #launch-screen #launch-screen-right{
+    display: none;
+}
+
+main #launch-screen #launch-screen-left h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #111827;
+}
+
+main #launch-screen #launch-screen-left h1 span{
+    color: #0065E0;
+}
+
+main #launch-screen #launch-screen-left h1 div{
+    width: 35%;
+    height: 28px;
+    background: rgba(0, 255, 25, 0.22);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+main #launch-screen #launch-screen-left #left-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #6B7280;
+    margin-top: 0;
+    margin-bottom: 2vh;
+}
+
+main #launch-screen #launch-screen-left #input-1-div{
+    width: auto;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 9px;
+    margin-bottom: 0px;
+}
+
+main #launch-screen #launch-screen-left #input-1-div input{
+    width: 406px;
+    margin: 0 3%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+main #launch-screen #launch-screen-left #input-1-div input:focus{
+    border-bottom: 1px solid gray;
+}
+
+main #launch-screen #launch-screen-left #input-1-div #input-1-right-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+main #launch-screen #launch-screen-left #input-2-div{
+    width: auto;
+    height: 111px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vh 3%;
+    
+}
+
+main #launch-screen #launch-screen-left #input-2-div img{
+    width: 20px;
+    height: 20px;
+}
+
+main #launch-screen #launch-screen-left #input-2-div textarea{
+    max-height: 20vh;
+    border: none;
+    outline: none;
+    margin-left: 1.5%;
+    font-size: 16px;
+}
+
+main #launch-screen #launch-screen-left button{
+    margin-top: 3vh;
+    width: 100%;
+    height: 50px;
+    background: #0065E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+main #launch-screen #launch-screen-left button:hover{
+    background: #fff;
+    color: black;
+    border: 2px solid #0065E0;
+    transition: 0.5s ease-in-out;
+}
+
+/* LAUNCH-SCREEN SECTION ENDED */
+/* MAIN BELOW-SECTION STARTING */
+
+main #below-section{
+    padding: 56px 51px;
+    background: #F5F5F5;
+}
+
+main #below-section #topics-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main #below-section span{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main #below-section #topics-div #buttons-for-topic{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+main #below-section #topics-div #buttons-for-topic button{
+    height: 41px;
+    padding: 0 8%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* HELELIK YAZDIGLARIM */
+
+/* /HELELIK YAZDIGLARIM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

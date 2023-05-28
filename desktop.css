@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* border: 1px dotted red; */
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 71px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+header div .fa-bars{
+    display: none;
+}
+
+header>.header-elements{
+    cursor: pointer;
+}
+
+header .header-elements input{
+    width: 288px;
+    height: 31px;
+    background: #D9D9D9;
+    padding: 6px 36px;
+    border: none;
+    outline: none;
+}
+
+header .header-elements input::placeholder{
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+
+header .header-elements:nth-child(7){
+    width: 175px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 36px;
+}
+
+header div .fa-user{
+    display: none;
+}
+
+main #launch-screen{
+    background-image: url(./Rectangle\ 1background-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-height: 640px;
+    padding: 196px 51px 0 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main #launch-screen #launch-screen-left{
+    width: 526px;
+    height: auto;
+}
+
+main #launch-screen #launch-screen-left h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #111827;
+}
+
+main #launch-screen #launch-screen-left h1 span{
+    color: #0065E0;
+}
+
+main #launch-screen #launch-screen-left h1 div{
+    width: 197px;
+    height: 28px;
+    background: rgba(0, 255, 25, 0.22);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+main #launch-screen #launch-screen-left #left-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #6B7280;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+main #launch-screen #launch-screen-left #input-1-div{
+    width: 526px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    padding: 11px 11px;
+    margin-bottom: 11px;
+}
+
+main #launch-screen #launch-screen-left #input-1-div input{
+    width: 406px;
+    margin: 0 13px;
+    border: none;
+    outline: none;
+}
+
+main #launch-screen #launch-screen-left #input-1-div input:focus{
+    border-bottom: 1px solid gray;
+}
+
+main #launch-screen #launch-screen-left #input-1-div #input-1-right-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7A7A7A;
+}
+
+main #launch-screen #launch-screen-left #input-2-div{
+    width: auto;
+    height: 111px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    padding: 15px 11px;
+    
+}
+
+main #launch-screen #launch-screen-left #input-2-div img{
+    width: 20px;
+    height: 20px;
+}
+
+main #launch-screen #launch-screen-left #input-2-div textarea{
+    max-height: 85px;
+    border: none;
+    outline: none;
+    margin-left: 13px;
+    resize: none;
+}
+
+main #launch-screen #launch-screen-left button{
+    margin-top: 17px;
+    width: 526px;
+    height: 50px;
+    background: #0065E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+main #launch-screen #launch-screen-left button:hover{
+    background: #fff;
+    color: black;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+/* LAUNCH-SCREEN SECTION ENDED */
+/* MAIN BELOW-SECTION STARTING */
+
+main #below-section{
+    padding: 56px 51px;
+    background: #F5F5F5;
+}
+
+main #below-section #topics-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main #below-section span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+main #below-section #topics-div #buttons-for-topic{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+main #below-section #topics-div #buttons-for-topic button{
+    height: 41px;
+    padding: 0 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+main #below-section #last-questions-div{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+main #below-section #last-questions-div #latest-questions{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+main #below-section #last-questions-div #latest-questions .questions{
+    width: 524px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 9px 29px 15px 25px;
+    margin-right: 27px;
+}
+
+main #below-section #last-questions-div #latest-questions .questions .username{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #A2A2A2;
+    margin-bottom: 13px;
+}
+
+main #below-section #last-questions-div #latest-questions .questions .que-of-user{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+main #below-section #last-questions-div #latest-questions .questions .desc-of-que{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+main #below-section #last-questions-div #latest-questions .questions .online-situation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #BDBDBD;
+}
+
+main #below-section #last-questions-div #latest-questions .questions .online-situation div:nth-child(4){
+    color: #9A9A9A;
+}
+
+main #below-section #popular-doctors{
+    margin-top: 72px;
+    margin-bottom: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide .doctors{
+    width: 202px;
+    height: 213px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 13px 10px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide .doctors .doctors-avatar{
+    width: 90px;
+    height: 90px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide .doctors .doctors-name{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide .doctors .doctor-specialty{
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7D7D7D;
+}
+
+main #below-section #popular-doctors #popular-doctors-slide .doctors .online-situation{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 33px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #BDBDBD;
+}
+
+footer{
+    width: 100%;
+    height: 246px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+@media only screen and (max-width:1200px) {
+    #launch-screen-right{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
